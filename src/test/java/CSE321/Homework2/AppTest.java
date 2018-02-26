@@ -33,11 +33,11 @@ public class AppTest {
 		assertEquals(1,App.divide(a,b));
 	}
 	
-	@Test
+	@Test (expected = ArithmeticException.class)
 	public void TestDiv0(){
 		System.out.println("Test Div0 Run");
 		int c = 1;
 		int d = 0;
-		assertEquals(0, App.divide(c, d));
+		App.divide(c, d);
 	}
 }
