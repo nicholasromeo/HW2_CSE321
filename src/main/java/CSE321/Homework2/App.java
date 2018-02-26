@@ -12,4 +12,9 @@ public class App {
 		int sub = a-b;
 		return sub;
 	}
+
+	public static int divide(int a, int b) {
+		int div = a/b;
+		return div;
+	}
 }

@@ -14,15 +14,19 @@ public class AppTest {
 		a = 2;
 		b = 2;
 	}
-	
+
 	@Test
 	public void TestAdd(){
 		assertEquals(4, App.add(a, b));
 	}
-	
+
 	@Test
 	public void TestSub(){
 		assertEquals(0,App.subtract(a, b));
 	}
-}
 
+	@Test
+	public void TestDiv(){
+		assertEquals(1,App.divide(a,b));
+	}
+}
