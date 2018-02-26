@@ -10,18 +10,18 @@ public class AppTest {
 	private int b;
 
 	@Before
-	public void setUp() {
+	public void TestSetUp() {
 		a = 2;
 		b = 2;
 	}
 	
 	@Test
-	public void addTest(){
+	public void TestAdd(){
 		assertEquals(4, App.add(a, b));
 	}
 	
 	@Test
-	public void subTest(){
+	public void TestSub(){
 		assertEquals(0,App.subtract(a, b));
 	}
 }
