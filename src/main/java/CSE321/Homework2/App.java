@@ -23,6 +23,8 @@ public class App {
 		if (a == 8) {
 			eight = true;
 			return eight;
+		} else {
+			eight = false;
 		}
 		return eight;
 	}
