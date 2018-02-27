@@ -17,4 +17,13 @@ public class App {
 		int div = a/b;
 		return div;
 	}
+	
+	public static boolean isEight(int a){
+		boolean eight = true;
+		if (a == 8) {
+			eight = true;
+			return eight;
+		}
+		return eight;
+	}
 }

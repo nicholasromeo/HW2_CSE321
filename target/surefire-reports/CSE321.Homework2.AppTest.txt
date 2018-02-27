@@ -1,11 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: CSE321.Homework2.AppTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.136 sec <<< FAILURE!
-TestDiv0(CSE321.Homework2.AppTest)  Time elapsed: 0.013 sec  <<< ERROR!
-java.lang.ArithmeticException: / by zero
-	at CSE321.Homework2.App.divide(App.java:17)
-	at CSE321.Homework2.AppTest.TestDiv0(AppTest.java:41)
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.072 sec <<< FAILURE!
+TestNotEight(CSE321.Homework2.AppTest)  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<false> but was:<true>
+	at org.junit.Assert.fail(Assert.java:91)
+	at org.junit.Assert.failNotEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:126)
+	at org.junit.Assert.assertEquals(Assert.java:145)
+	at CSE321.Homework2.AppTest.TestNotEight(AppTest.java:46)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
